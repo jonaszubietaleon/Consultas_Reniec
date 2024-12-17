@@ -1,0 +1,9 @@
+version: '4'
+services:
+  app1:
+    image: luistasayco2004/hackathon_luistasayco_backend:definit
+    ports:
+      - "8080:8080"
+    #NO PIDIO VARIABLES
+
+    docker build -t jonas_leon .
